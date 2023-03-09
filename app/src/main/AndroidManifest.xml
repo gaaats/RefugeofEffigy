@@ -13,7 +13,7 @@
 
     <application
         android:allowBackup="true"
-        android:name=".PapaClasa"
+        android:name=".gkgtjigtjigt.PapaClasa"
         android:usesCleartextTraffic="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:icon="@mipmap/ic_launcher"
@@ -22,16 +22,16 @@
         android:theme="@style/Theme.RefugeOfEffigy"
         tools:targetApi="31">
         <activity
-            android:name=".VebbbbbibiibiiActivity2"
+            android:name=".gtjgtigt.VebbbbbibiibiiActivity2"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:exported="false"
             android:windowSoftInputMode="adjustResize"/>
         <activity
-            android:name=".GaammymymymhmdefActivity2"
+            android:name=".ggtjigtji.GaammymymymhmdefActivity2"
             android:screenOrientation="portrait"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".gjigtjigtji.MainActivity"
             android:screenOrientation="portrait"
             android:launchMode="singleInstance"
             android:exported="true">
@@ -53,10 +53,10 @@
 
         <meta-data
             android:name="com.facebook.sdk.ApplicationId"
-            android:value="@string/facebook_app_id" />
+            android:value="@string/g95tg59gt59gt59gt" />
         <meta-data
             android:name="com.facebook.sdk.ClientToken"
-            android:value="@string/facebook_client_token" />
+            android:value="@string/facebohy95hy59hy59hy59hyk_client_token" />
     </application>
 
 </manifest>

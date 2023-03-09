@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/gaam"
-    tools:context=".Gaammeee22Fragment">
+    tools:context=".gfjgtjigtji.Gaammeee22Fragment">
 
     <ImageView
         android:id="@+id/gtyujikikik"
