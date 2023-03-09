@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/maaain"
+    app:startDestination="@id/maaainnnFragment">
+
+    <fragment
+        android:id="@+id/maaainnnFragment"
+        android:name="com.tocaboca.tocalifeworlde.MaaainnnFragment"
+        android:label="fragment_maaainnn"
+        tools:layout="@layout/fragment_maaainnn" >
+        <action
+            android:id="@+id/action_maaainnnFragment_to_countryyyFragment"
+            app:destination="@id/countryyyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/countryyyFragment"
+        android:name="com.tocaboca.tocalifeworlde.CountryyyFragment"
+        android:label="fragment_countryyy"
+        tools:layout="@layout/fragment_countryyy" >
+        <action
+            android:id="@+id/action_countryyyFragment_to_seccMaiinFragment"
+            app:destination="@id/seccMaiinFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/seccMaiinFragment"
+        android:name="com.tocaboca.tocalifeworlde.SeccMaiinFragment"
+        android:label="fragment_secc_maiin"
+        tools:layout="@layout/fragment_secc_maiin" >
+        <action
+            android:id="@+id/action_seccMaiinFragment_to_preeFiillteerrrFragment"
+            app:destination="@id/preeFiillteerrrFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/preeFiillteerrrFragment"
+        android:name="com.tocaboca.tocalifeworlde.PreeFiillteerrrFragment"
+        android:label="fragment_pree_fiillteerrr"
+        tools:layout="@layout/fragment_pree_fiillteerrr" >
+        <action
+            android:id="@+id/action_preeFiillteerrrFragment_to_fiilterrraaaFragment"
+            app:destination="@id/fiilterrraaaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fiilterrraaaFragment"
+        android:name="com.tocaboca.tocalifeworlde.FiilterrraaaFragment"
+        android:label="fragment_fiilterrraaa"
+        tools:layout="@layout/fragment_fiilterrraaa" />
+</navigation>

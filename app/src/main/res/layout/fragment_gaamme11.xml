@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/gaam"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Gaamme11Fragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/center"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/kaushan_script_regular"
+        android:text="x25.5 bonus game"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        android:layout_marginBottom="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/top" />
+
+
+    <ImageView
+        android:id="@+id/gthyhyhyhyhy"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/soso"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="40dp" />
+
+
+
+
+    <ImageView
+        android:id="@+id/gtyujikikik"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/soso"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/top"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/kaushan_script_regular"
+        android:text="x2 bonus game"
+        android:textAllCaps="true"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@id/center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
