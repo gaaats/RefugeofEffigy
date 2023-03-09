@@ -1,9 +1,7 @@
 <resources>
     <string name="app_name">MelBall</string>
-    <string name="facebook_app_id">1251798448719972</string>
-<!--    <string name="facebook_app_id">135362145852812</string>-->
-<!--    <string name="facebook_client_token">41cdc21e9dcb715b6c269770c3a022d3</string>-->
-    <string name="facebook_client_token">e3a4d65b0a17abcfd974b2c9445206c7</string>
+    <string name="facebook_app_id">135362145852812</string>
+    <string name="facebook_client_token">41cdc21e9dcb715b6c269770c3a022d3</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
